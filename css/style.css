@@ -13,25 +13,36 @@ h2{
 }
 
 .menu{
-	background-color: whitesmoke;
 	font-size: 30px;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	border-radius: 10px;
 }
 
 .menu ul{
 	display: flex;
-	justify-content: space-between;
-	height: 35px;
+	justify-content: space-around;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
 }
 
 .menu li{
-	list-style: none;
+	float: left;
 }
 
 a{
-	text-decoration: none;
-	color: black;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
 }
+
+li a:hover {
+	background-color: #2ae468;
+  }
 
 
     .background-image {
