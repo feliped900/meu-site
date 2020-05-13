@@ -23,7 +23,6 @@ header {
 }
 
 .site-title {
-	position: relative;
     font-size: 4em;
 	color: white;
 	font-family: 'Roboto', sans-serif;
@@ -31,7 +30,6 @@ header {
 }
 
 .site-subtitle {
-	position: relative;
     color: white;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
@@ -69,11 +67,9 @@ a{
 }
 
 #centro {
-	position: relative;
-    left:50%;
-    margin-left:-110px;
-	height: 240px;
-    width: 240px;
+    margin-left:110px;
+	height: 210px;
+    width: 210px;
     object-fit: cover;
 	border-radius: 120px;
 }
