@@ -31,18 +31,12 @@ header {
 }
 
 .site-subtitle {
+	position: relative;
     color: white;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.8em;
 	text-shadow: 2px 2px black;
-}
-
-.header, img {
-	height: 240px;
-    width: 240px;
-    object-fit: cover;
-	border-radius: 120px;
 }
 
 .menu{
@@ -72,6 +66,16 @@ a{
   text-align: center;
   padding: 12px;
   text-decoration: none;
+}
+
+#centro {
+	position: relative;
+    left:50%;
+    margin-left:-110px;
+	height: 240px;
+    width: 240px;
+    object-fit: cover;
+	border-radius: 120px;
 }
 
 li a:hover {
@@ -170,11 +174,3 @@ li a:hover {
 	color: #f1f1f1;
 	width: 100%;
   }
-
-
-  #centro {
-	position:absolute;
-    top:60%;
-    left:50%;
-    margin-left:-110px;
-	}
