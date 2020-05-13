@@ -4,69 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
     <title>Document</title>
 </head>
 <body>
-<div>
-  <video autoplay muted loop id="myVideo">
-    <source src="videos/rain.mp4" type="video/mp4">
-    Your browser does not support HTML5 video.
-  </video>
-      <div class="content">
-      <header>
-        <nav class="menu">
-          <ul>
+    <video autoplay muted loop id="myVideo">
+        <source src="videos/rain.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <div style="position:fixed; width:100%; z-index:999;">
+    <nav class="menu">
+        <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Sobre</a></li>
-            <li><a href="#di_portifolio">Portifolio</a></li>
+            <li><a href="#">Projetos</a></li>
             <li><a href="#">Contato</a></li>
-          </ul>
-        </nav>
-            <div>
-              <h1 class="site-title">Felipe Augusto</h1>
-              <h2 class="site-subtitle">Fotografia e Design</h2>
-              <img src="img/perfil.jpg" alt="perfil" id="centro">
-            </div>
-      </header>
-      </div>
-</div>
-
-
-
-<div>
-  <section class="portfolio" id="di_portifolio">
-    <h2>Projetos</h2>
-    <div class="grid">
-      <figure>
-        <img class="img-portfolio" src="img/1.jpg" alt="Iralanda 1">
-        <figcaption>Iralanda 1</figcaption>
-      </figure>
-      <figure>
-        <img class="img-portfolio" src="img/2.jpg" alt=">Iralanda 2">
-        <figcaption>Iralanda 2</figcaption>
-      </figure>
-      <figure>
-        <img class="img-portfolio" src="img/3.jpg" alt="Iralanda 3">
-        <figcaption>Iralanda 3</figcaption>
-      </figure>
-      <figure>
-        <img class="img-portfolio" src="img/4.jpg" alt="Iralanda 4">
-        <figcaption>Iralanda 4</figcaption>
-      </figure>
-      <figure>
-        <img class="img-portfolio" src="img/1.jpg" alt="Iralanda 5">
-        <figcaption>Iralanda 5</figcaption>
-      </figure>
-      <figure>
-        <img class="img-portfolio" src="img/2.jpg" alt="Iralanda 6">
-        <figcaption>Iralanda 6</figcaption>
-      </figure>
+        </ul>
+    </nav>
     </div>
-  </section>
-</div>
+    <div class="content"></div>
+        <header>
+            <h1>Felipe Augusto</h1>
+            <h2>Fotografia</h2>
+            <img src="img/perfil.jpg" alt="perfil" id="imagemperfil">
+        </header>
+    </div>
+    <div class="content">
+        <header>
+            <h1>Felipe Augusto</h1>
+            <h2>Fotografia</h2>
+        </header>
+    </div>
 
-    
+    <div id="absoluto">
+        <section class="portfolio">
+          <h2>Projetos</h2>
+          <div class="grid">
+            <figure>
+              <img class="img-portfolio" src="img/1.jpg" alt="Iralanda 1">
+              <figcaption>Iralanda 1</figcaption>
+            </figure>
+            <figure>
+              <img class="img-portfolio" src="img/2.jpg" alt=">Iralanda 2">
+              <figcaption>Iralanda 2</figcaption>
+            </figure>
+            <figure>
+              <img class="img-portfolio" src="img/3.jpg" alt="Iralanda 3">
+              <figcaption>Iralanda 3</figcaption>
+            </figure>
+            <figure>
+              <img class="img-portfolio" src="img/4.jpg" alt="Iralanda 4">
+              <figcaption>Iralanda 4</figcaption>
+            </figure>
+            <figure>
+              <img class="img-portfolio" src="img/1.jpg" alt="Iralanda 5">
+              <figcaption>Iralanda 5</figcaption>
+            </figure>
+            <figure>
+              <img class="img-portfolio" src="img/2.jpg" alt="Iralanda 6">
+              <figcaption>Iralanda 6</figcaption>
+            </figure>
+          </div>
+        </section>
+      </div>
 </body>
 </html>
