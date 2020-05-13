@@ -5,7 +5,14 @@
 }
 
 body{
-	background-image: url('../img/fundo.jpg');
+	background-color:black;
+	background-image:
+	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
 header {
@@ -17,14 +24,13 @@ header {
 
 .site-title {
     font-size: 4em;
-	color: black;
+	color: white;
 	font-family: 'Roboto', sans-serif;
 }
 
 .site-subtitle {
-    color: whitesmoke;
+    color: white;
 	text-align: center;
-	color: black;
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.8em;
 }
@@ -75,18 +81,20 @@ li a:hover {
     grid-template-columns: repeat(3, 260px);
     align-content: center;
     justify-content: center;
-    height: calc(100vh - 8em - 48px);
 }
 
 .portfolio h2{
+	line-height: 3em;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	font-size: 4em;
+	color: white;
 }
 
 .portfolio figure{
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	color: white;
 }
 
 .img-portfolio {
@@ -98,4 +106,25 @@ li a:hover {
 
 .portfolio figure {
     text-align: center;
+}
+
+@media (min-width: 300px) {
+	.portfolio .grid {
+		display: grid;
+		grid-template-columns: 260px;
+	}
+}
+
+@media (min-width: 650px) {
+	.portfolio .grid {
+		display: grid;
+		grid-template-columns: 260px 260px;
+	}
+}
+
+@media (min-width: 860px) {
+	.portfolio .grid {
+		display: grid;
+		grid-template-columns: 260px 260px 260px;
+	}
 }
