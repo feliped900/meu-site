@@ -23,9 +23,11 @@ header {
 }
 
 .site-title {
+	position: relative;
     font-size: 4em;
 	color: white;
 	font-family: 'Roboto', sans-serif;
+	text-shadow: 2px 2px black;
 }
 
 .site-subtitle {
@@ -33,6 +35,7 @@ header {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.8em;
+	text-shadow: 2px 2px black;
 }
 
 .menu{
@@ -128,3 +131,23 @@ li a:hover {
 		grid-template-columns: 260px 260px 260px;
 	}
 }
+
+
+
+
+
+#myVideo {
+	position: relative;
+	right: 0;
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+  }
+
+
+  .content {
+	position: absolute;
+	bottom: 0;
+	color: #f1f1f1;
+	width: 100%;
+  }
